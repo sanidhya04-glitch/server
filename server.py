@@ -1,7 +1,6 @@
 from flask import Flask, request, jsonify, render_template_string
 from datetime import datetime, timedelta
 import sqlite3
-import json
 
 app = Flask(__name__)
 
